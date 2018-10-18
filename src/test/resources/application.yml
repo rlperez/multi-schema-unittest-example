@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: multi-schema-unittest-example
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.HSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    data: data.sql
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:data

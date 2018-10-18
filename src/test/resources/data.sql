@@ -1,0 +1,2 @@
+Insert INTO A.FOO(ID, VALUE) VALUES (1,'F');
+Insert INTO B.BOO(ID, VALUE) VALUES (1,'B');
